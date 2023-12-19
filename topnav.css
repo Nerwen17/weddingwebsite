@@ -64,6 +64,7 @@
         margin-inline: 0;
 
         width: 100%;
+        min-width: 0px;
     }
     .topnav-links a{
         cursor: pointer;
@@ -98,15 +99,28 @@
         right: -1.5em;
     }
 }
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 355px){
     .topnav-links{
         top: 5em;
-        width: 100%;
     }
-    .logo{
-        left: -.3em;
+}
+@media screen and (max-width: 355px) {
+    .topnav-links{
+        top: 7em;
     }
-    #hamburger{
-        right: -.5em;
+}
+@media screen and (max-width: 325px) {
+    .topnav-links{
+        top: 6.75em;
+    }
+}
+@media screen and (max-width: 260px) {
+    .topnav-links{
+        top: 8.8em;
+    }
+}
+@media screen and (max-width: 220px) {
+    .topnav-links{
+        top: 8.7em;
     }
 }
