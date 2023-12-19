@@ -49,6 +49,7 @@
 @media screen and (max-width:750px) {
     #hamburger{
         display: block;
+        
     }
     .topnav-links{
         display: none;
@@ -81,5 +82,34 @@
         
         overflow: none;
         white-space: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .topnav{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .logo{
+        position: relative;
+        left: 1em;
+    }
+    .topnav-links{
+        width: 100%;
+    }
+    #hamburger{
+        position: relative;
+        right: -1.5em;
+    }
+}
+@media screen and (max-width: 355px) {
+    .topnav-links{
+        top: 5em;
+        min-width: 5em;
+    }
+    .logo{
+        left: -.3em;
+    }
+    #hamburger{
+        right: -.5em;
     }
 }
