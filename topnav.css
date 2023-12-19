@@ -104,7 +104,7 @@
 @media screen and (max-width: 355px) {
     .topnav-links{
         top: 5em;
-        min-width: 5em;
+        min-width: 4em;
     }
     .logo{
         left: -.3em;
