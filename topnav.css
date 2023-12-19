@@ -93,9 +93,6 @@
         position: relative;
         left: 1em;
     }
-    .topnav-links{
-        width: 100%;
-    }
     #hamburger{
         position: relative;
         right: -1.5em;
@@ -104,7 +101,7 @@
 @media screen and (max-width: 355px) {
     .topnav-links{
         top: 5em;
-        min-width: 4em;
+        width: 100%;
     }
     .logo{
         left: -.3em;
